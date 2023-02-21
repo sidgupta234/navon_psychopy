@@ -3,18 +3,17 @@ close all;
 clear;
 sca
 
-
 % Create a Psychtoolbox dialog box
 prompt = {'Enter your name:', 'Enter your age:'};
 dlgtitle = 'Personal Information';
 dims = [1 50];
 definput = {'', ''};
-options = struct('Resize','on');
+options = struct('Resize','on');    
 
 % Display the dialog box and wait for user input
 answer = inputdlg(prompt, dlgtitle, dims, definput, options);
 
-% Save the input to variables
+% Save the input to variables   
 name = answer{1};
 age = str2double(answer{2});
 
@@ -77,17 +76,24 @@ csvData = csvData(permutedIndices, :);
 textColumn = csvData.letter_prints;
 global_ans = csvData.global_letter;
 local_ans = csvData.local_letter;
+local_letter = []
+global_letter = []
 num_total = 0;
 num_correct = 0;
 num_wrong_local = 0;
 num_wrong_other = 0;
+num_no_press = 0;
+
+response_code = []; % 0-Incorrect other, 1-Incorrect local, 2-Time Out, 3-Correct 
+response_time = [];
+
 correct_time = [];
 local_incorrect_time = [];
 other_incorrect_time = [];
 % Draw text in the middle of the screen in Courier in white
 Screen('TextSize', window, 20);
 Screen('TextFont', window, 'Courier');
-formatted_text = ['Hello ' name ' You will be shown an image of a big letter in english \n\n made up of small letters. \n\nClick key corresponding to \n\n the large letter. \n\nPress any key to start'];
+formatted_text = ['Hello ' name ' You will be shown an image of an (global) english alphabet \n\n made up of another english alphabet. \n\nClick key corresponding to \n\n the global letter. \n\nPress any key to start'];
 
 DrawFormattedText(window, formatted_text, 'center', 'center', black);
 Screen('Flip', window);  
@@ -105,34 +111,50 @@ for block = 1:3
     KbWait();
     WaitSecs(0.5);
 
-    for i = 1+(block-1)*10:10*(block)
+    for trial = 1+(block-1)*10:10*(block)
+        local_letter = [local_letter local_ans(trial)]
+        global_letter = [global_letter global_ans(trial)]
+
         Screen('TextSize', window, 80);
         Screen('TextFont', window, 'Courier');
-        disp(i);
+        disp(trial);
         num_total = num_total + 1;
-        DrawFormattedText(window, char(textColumn(i)), 'center', 'center', black);
+        DrawFormattedText(window, char(textColumn(trial)), 'center', 'center', black);
         Screen('Flip', window);
-        local_key_code = KbName(local_ans(i));
-        global_key_code = KbName(global_ans(i));
+        local_key_code = KbName(local_ans(trial));
+        global_key_code = KbName(global_ans(trial));
 
         startTime= WaitSecs(0);
-        [time, keyCode] = KbWait([], 3 ,startTime+2);
+        [time, keyCode] = KbWait([], 3 ,startTime+4);
         time = time - startTime;
-        disp(time)
+        %disp(time)
+        disp(KbName(keyCode))
     
         if KbName(keyCode) == KbName(global_key_code)
             num_correct = num_correct+1;
             correct_time = [correct_time time];
+            response_code = [3 response_code];
             disp('You pressed the global key!');
+            response_time = [time response_time];
     
         elseif KbName(keyCode) == KbName(local_key_code)
             num_wrong_local = num_wrong_local+1;
             local_incorrect_time = [local_incorrect_time time];
+            response_code = [1 response_code];
             disp('You pressed the local key!');
+            response_time = [time response_time];
     
+        elseif time>3.9
+            num_no_press = num_no_press+1;
+            local_incorrect_time = [local_incorrect_time time];
+            response_code = [2 response_code];
+            response_time = [time response_time];
+
         else
             num_wrong_other = num_wrong_other + 1;
             other_incorrect_time = [other_incorrect_time time];
+            response_code = [0 response_code];
+            response_time = [time response_time];
         end
     end
 
@@ -160,8 +182,10 @@ WaitSecs(0.5);
     %WaitSecs(1)
 % Flip to the screen
     %duration = 2
-    
-    
+
+ headers = {'local_letter','global_letter'}
+ csvwrite('matlabdandata2.csv',[global_letter;local_letter], headers)
+
     %disp(keyCode)
 % Draw text in the bottom of the screen in Times in blue
 %Screen('TextSize', window, 90);

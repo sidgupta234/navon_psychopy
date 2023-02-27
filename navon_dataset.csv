@@ -7,14 +7,6 @@ B   B
 B   B
 BBBB 
 ",True
-C,B,"CCCC 
-C   C
-C   C
-CCCC 
-C   C
-C   C
-CCCC 
-",False
 D,B,"DDDD 
 D   D
 D   D
@@ -22,30 +14,6 @@ DDDD
 D   D
 D   D
 DDDD 
-",False
-E,B,"EEEE 
-E   E
-E   E
-EEEE 
-E   E
-E   E
-EEEE 
-",False
-F,B,"FFFF 
-F   F
-F   F
-FFFF 
-F   F
-F   F
-FFFF 
-",False
-G,B,"GGGG 
-G   G
-G   G
-GGGG 
-G   G
-G   G
-GGGG 
 ",False
 H,B,"HHHH 
 H   H
@@ -55,30 +23,6 @@ H   H
 H   H
 HHHH 
 ",False
-I,B,"IIII 
-I   I
-I   I
-IIII 
-I   I
-I   I
-IIII 
-",False
-J,B,"JJJJ 
-J   J
-J   J
-JJJJ 
-J   J
-J   J
-JJJJ 
-",False
-K,B,"KKKK 
-K   K
-K   K
-KKKK 
-K   K
-K   K
-KKKK 
-",False
 L,B,"LLLL 
 L   L
 L   L
@@ -86,14 +30,6 @@ LLLL
 L   L
 L   L
 LLLL 
-",False
-N,B,"NNNN 
-N   N
-N   N
-NNNN 
-N   N
-N   N
-NNNN 
 ",False
 O,B,"OOOO 
 O   O
@@ -111,22 +47,6 @@ P   P
 P   P
 PPPP 
 ",False
-Q,B,"QQQQ 
-Q   Q
-Q   Q
-QQQQ 
-Q   Q
-Q   Q
-QQQQ 
-",False
-R,B,"RRRR 
-R   R
-R   R
-RRRR 
-R   R
-R   R
-RRRR 
-",False
 S,B,"SSSS 
 S   S
 S   S
@@ -143,30 +63,6 @@ T   T
 T   T
 TTTT 
 ",False
-U,B,"UUUU 
-U   U
-U   U
-UUUU 
-U   U
-U   U
-UUUU 
-",False
-V,B,"VVVV 
-V   V
-V   V
-VVVV 
-V   V
-V   V
-VVVV 
-",False
-W,B,"WWWW 
-W   W
-W   W
-WWWW 
-W   W
-W   W
-WWWW 
-",False
 X,B,"XXXX 
 X   X
 X   X
@@ -174,14 +70,6 @@ XXXX
 X   X
 X   X
 XXXX 
-",False
-Y,B,"YYYY 
-Y   Y
-Y   Y
-YYYY 
-Y   Y
-Y   Y
-YYYY 
 ",False
 Z,B,"ZZZZ 
 Z   Z
@@ -191,187 +79,12 @@ Z   Z
 Z   Z
 ZZZZ 
 ",False
-B,C," BBB 
-B    
-B    
-B    
-B    
- BBB 
-",False
-C,C," CCC 
-C    
-C    
-C    
-C    
- CCC 
-",True
-D,C," DDD 
-D    
-D    
-D    
-D    
- DDD 
-",False
-E,C," EEE 
-E    
-E    
-E    
-E    
- EEE 
-",False
-F,C," FFF 
-F    
-F    
-F    
-F    
- FFF 
-",False
-G,C," GGG 
-G    
-G    
-G    
-G    
- GGG 
-",False
-H,C," HHH 
-H    
-H    
-H    
-H    
- HHH 
-",False
-I,C," III 
-I    
-I    
-I    
-I    
- III 
-",False
-J,C," JJJ 
-J    
-J    
-J    
-J    
- JJJ 
-",False
-K,C," KKK 
-K    
-K    
-K    
-K    
- KKK 
-",False
-L,C," LLL 
-L    
-L    
-L    
-L    
- LLL 
-",False
-N,C," NNN 
-N    
-N    
-N    
-N    
- NNN 
-",False
-O,C," OOO 
-O    
-O    
-O    
-O    
- OOO 
-",False
-P,C," PPP 
-P    
-P    
-P    
-P    
- PPP 
-",False
-Q,C," QQQ 
-Q    
-Q    
-Q    
-Q    
- QQQ 
-",False
-R,C," RRR 
-R    
-R    
-R    
-R    
- RRR 
-",False
-S,C," SSS 
-S    
-S    
-S    
-S    
- SSS 
-",False
-T,C," TTT 
-T    
-T    
-T    
-T    
- TTT 
-",False
-U,C," UUU 
-U    
-U    
-U    
-U    
- UUU 
-",False
-V,C," VVV 
-V    
-V    
-V    
-V    
- VVV 
-",False
-W,C," WWW 
-W    
-W    
-W    
-W    
- WWW 
-",False
-X,C," XXX 
-X    
-X    
-X    
-X    
- XXX 
-",False
-Y,C," YYY 
-Y    
-Y    
-Y    
-Y    
- YYY 
-",False
-Z,C," ZZZ 
-Z    
-Z    
-Z    
-Z    
- ZZZ 
-",False
 B,D,"BBBB 
 B   B
 B   B
 B   B
 B   B
 BBBB 
-",False
-C,D,"CCCC 
-C   C
-C   C
-C   C
-C   C
-CCCC 
 ",False
 D,D,"DDDD 
 D   D
@@ -380,27 +93,6 @@ D   D
 D   D
 DDDD 
 ",True
-E,D,"EEEE 
-E   E
-E   E
-E   E
-E   E
-EEEE 
-",False
-F,D,"FFFF 
-F   F
-F   F
-F   F
-F   F
-FFFF 
-",False
-G,D,"GGGG 
-G   G
-G   G
-G   G
-G   G
-GGGG 
-",False
 H,D,"HHHH 
 H   H
 H   H
@@ -408,40 +100,12 @@ H   H
 H   H
 HHHH 
 ",False
-I,D,"IIII 
-I   I
-I   I
-I   I
-I   I
-IIII 
-",False
-J,D,"JJJJ 
-J   J
-J   J
-J   J
-J   J
-JJJJ 
-",False
-K,D,"KKKK 
-K   K
-K   K
-K   K
-K   K
-KKKK 
-",False
 L,D,"LLLL 
 L   L
 L   L
 L   L
 L   L
 LLLL 
-",False
-N,D,"NNNN 
-N   N
-N   N
-N   N
-N   N
-NNNN 
 ",False
 O,D,"OOOO 
 O   O
@@ -457,20 +121,6 @@ P   P
 P   P
 PPPP 
 ",False
-Q,D,"QQQQ 
-Q   Q
-Q   Q
-Q   Q
-Q   Q
-QQQQ 
-",False
-R,D,"RRRR 
-R   R
-R   R
-R   R
-R   R
-RRRR 
-",False
 S,D,"SSSS 
 S   S
 S   S
@@ -485,40 +135,12 @@ T   T
 T   T
 TTTT 
 ",False
-U,D,"UUUU 
-U   U
-U   U
-U   U
-U   U
-UUUU 
-",False
-V,D,"VVVV 
-V   V
-V   V
-V   V
-V   V
-VVVV 
-",False
-W,D,"WWWW 
-W   W
-W   W
-W   W
-W   W
-WWWW 
-",False
 X,D,"XXXX 
 X   X
 X   X
 X   X
 X   X
 XXXX 
-",False
-Y,D,"YYYY 
-Y   Y
-Y   Y
-Y   Y
-Y   Y
-YYYY 
 ",False
 Z,D,"ZZZZ 
 Z   Z
@@ -527,523 +149,12 @@ Z   Z
 Z   Z
 ZZZZ 
 ",False
-B,E,"BBBBB
-B    
-B    
-BBBB 
-B    
-BBBBB
-",False
-C,E,"CCCCC
-C    
-C    
-CCCC 
-C    
-CCCCC
-",False
-D,E,"DDDDD
-D    
-D    
-DDDD 
-D    
-DDDDD
-",False
-E,E,"EEEEE
-E    
-E    
-EEEE 
-E    
-EEEEE
-",True
-F,E,"FFFFF
-F    
-F    
-FFFF 
-F    
-FFFFF
-",False
-G,E,"GGGGG
-G    
-G    
-GGGG 
-G    
-GGGGG
-",False
-H,E,"HHHHH
-H    
-H    
-HHHH 
-H    
-HHHHH
-",False
-I,E,"IIIII
-I    
-I    
-IIII 
-I    
-IIIII
-",False
-J,E,"JJJJJ
-J    
-J    
-JJJJ 
-J    
-JJJJJ
-",False
-K,E,"KKKKK
-K    
-K    
-KKKK 
-K    
-KKKKK
-",False
-L,E,"LLLLL
-L    
-L    
-LLLL 
-L    
-LLLLL
-",False
-N,E,"NNNNN
-N    
-N    
-NNNN 
-N    
-NNNNN
-",False
-O,E,"OOOOO
-O    
-O    
-OOOO 
-O    
-OOOOO
-",False
-P,E,"PPPPP
-P    
-P    
-PPPP 
-P    
-PPPPP
-",False
-Q,E,"QQQQQ
-Q    
-Q    
-QQQQ 
-Q    
-QQQQQ
-",False
-R,E,"RRRRR
-R    
-R    
-RRRR 
-R    
-RRRRR
-",False
-S,E,"SSSSS
-S    
-S    
-SSSS 
-S    
-SSSSS
-",False
-T,E,"TTTTT
-T    
-T    
-TTTT 
-T    
-TTTTT
-",False
-U,E,"UUUUU
-U    
-U    
-UUUU 
-U    
-UUUUU
-",False
-V,E,"VVVVV
-V    
-V    
-VVVV 
-V    
-VVVVV
-",False
-W,E,"WWWWW
-W    
-W    
-WWWW 
-W    
-WWWWW
-",False
-X,E,"XXXXX
-X    
-X    
-XXXX 
-X    
-XXXXX
-",False
-Y,E,"YYYYY
-Y    
-Y    
-YYYY 
-Y    
-YYYYY
-",False
-Z,E,"ZZZZZ
-Z    
-Z    
-ZZZZ 
-Z    
-ZZZZZ
-",False
-B,F,"BBBBB
-B    
-B    
-BBBB 
-B    
-B    
-",False
-C,F,"CCCCC
-C    
-C    
-CCCC 
-C    
-C    
-",False
-D,F,"DDDDD
-D    
-D    
-DDDD 
-D    
-D    
-",False
-E,F,"EEEEE
-E    
-E    
-EEEE 
-E    
-E    
-",False
-F,F,"FFFFF
-F    
-F    
-FFFF 
-F    
-F    
-",True
-G,F,"GGGGG
-G    
-G    
-GGGG 
-G    
-G    
-",False
-H,F,"HHHHH
-H    
-H    
-HHHH 
-H    
-H    
-",False
-I,F,"IIIII
-I    
-I    
-IIII 
-I    
-I    
-",False
-J,F,"JJJJJ
-J    
-J    
-JJJJ 
-J    
-J    
-",False
-K,F,"KKKKK
-K    
-K    
-KKKK 
-K    
-K    
-",False
-L,F,"LLLLL
-L    
-L    
-LLLL 
-L    
-L    
-",False
-N,F,"NNNNN
-N    
-N    
-NNNN 
-N    
-N    
-",False
-O,F,"OOOOO
-O    
-O    
-OOOO 
-O    
-O    
-",False
-P,F,"PPPPP
-P    
-P    
-PPPP 
-P    
-P    
-",False
-Q,F,"QQQQQ
-Q    
-Q    
-QQQQ 
-Q    
-Q    
-",False
-R,F,"RRRRR
-R    
-R    
-RRRR 
-R    
-R    
-",False
-S,F,"SSSSS
-S    
-S    
-SSSS 
-S    
-S    
-",False
-T,F,"TTTTT
-T    
-T    
-TTTT 
-T    
-T    
-",False
-U,F,"UUUUU
-U    
-U    
-UUUU 
-U    
-U    
-",False
-V,F,"VVVVV
-V    
-V    
-VVVV 
-V    
-V    
-",False
-W,F,"WWWWW
-W    
-W    
-WWWW 
-W    
-W    
-",False
-X,F,"XXXXX
-X    
-X    
-XXXX 
-X    
-X    
-",False
-Y,F,"YYYYY
-Y    
-Y    
-YYYY 
-Y    
-Y    
-",False
-Z,F,"ZZZZZ
-Z    
-Z    
-ZZZZ 
-Z    
-Z    
-",False
-B,G," BBBB
-B    
-B    
-B  BB
-B   B
- BBBB
-",False
-C,G," CCCC
-C    
-C    
-C  CC
-C   C
- CCCC
-",False
-D,G," DDDD
-D    
-D    
-D  DD
-D   D
- DDDD
-",False
-E,G," EEEE
-E    
-E    
-E  EE
-E   E
- EEEE
-",False
-F,G," FFFF
-F    
-F    
-F  FF
-F   F
- FFFF
-",False
-G,G," GGGG
-G    
-G    
-G  GG
-G   G
- GGGG
-",True
-H,G," HHHH
-H    
-H    
-H  HH
-H   H
- HHHH
-",False
-I,G," IIII
-I    
-I    
-I  II
-I   I
- IIII
-",False
-J,G," JJJJ
-J    
-J    
-J  JJ
-J   J
- JJJJ
-",False
-K,G," KKKK
-K    
-K    
-K  KK
-K   K
- KKKK
-",False
-L,G," LLLL
-L    
-L    
-L  LL
-L   L
- LLLL
-",False
-N,G," NNNN
-N    
-N    
-N  NN
-N   N
- NNNN
-",False
-O,G," OOOO
-O    
-O    
-O  OO
-O   O
- OOOO
-",False
-P,G," PPPP
-P    
-P    
-P  PP
-P   P
- PPPP
-",False
-Q,G," QQQQ
-Q    
-Q    
-Q  QQ
-Q   Q
- QQQQ
-",False
-R,G," RRRR
-R    
-R    
-R  RR
-R   R
- RRRR
-",False
-S,G," SSSS
-S    
-S    
-S  SS
-S   S
- SSSS
-",False
-T,G," TTTT
-T    
-T    
-T  TT
-T   T
- TTTT
-",False
-U,G," UUUU
-U    
-U    
-U  UU
-U   U
- UUUU
-",False
-V,G," VVVV
-V    
-V    
-V  VV
-V   V
- VVVV
-",False
-W,G," WWWW
-W    
-W    
-W  WW
-W   W
- WWWW
-",False
-X,G," XXXX
-X    
-X    
-X  XX
-X   X
- XXXX
-",False
-Y,G," YYYY
-Y    
-Y    
-Y  YY
-Y   Y
- YYYY
-",False
-Z,G," ZZZZ
-Z    
-Z    
-Z  ZZ
-Z   Z
- ZZZZ
-",False
 B,H,"B   B
 B   B
 B   B
 BBBBB
 B   B
 B   B
-",False
-C,H,"C   C
-C   C
-C   C
-CCCCC
-C   C
-C   C
 ",False
 D,H,"D   D
 D   D
@@ -1052,27 +163,6 @@ DDDDD
 D   D
 D   D
 ",False
-E,H,"E   E
-E   E
-E   E
-EEEEE
-E   E
-E   E
-",False
-F,H,"F   F
-F   F
-F   F
-FFFFF
-F   F
-F   F
-",False
-G,H,"G   G
-G   G
-G   G
-GGGGG
-G   G
-G   G
-",False
 H,H,"H   H
 H   H
 H   H
@@ -1080,40 +170,12 @@ HHHHH
 H   H
 H   H
 ",True
-I,H,"I   I
-I   I
-I   I
-IIIII
-I   I
-I   I
-",False
-J,H,"J   J
-J   J
-J   J
-JJJJJ
-J   J
-J   J
-",False
-K,H,"K   K
-K   K
-K   K
-KKKKK
-K   K
-K   K
-",False
 L,H,"L   L
 L   L
 L   L
 LLLLL
 L   L
 L   L
-",False
-N,H,"N   N
-N   N
-N   N
-NNNNN
-N   N
-N   N
 ",False
 O,H,"O   O
 O   O
@@ -1129,20 +191,6 @@ PPPPP
 P   P
 P   P
 ",False
-Q,H,"Q   Q
-Q   Q
-Q   Q
-QQQQQ
-Q   Q
-Q   Q
-",False
-R,H,"R   R
-R   R
-R   R
-RRRRR
-R   R
-R   R
-",False
 S,H,"S   S
 S   S
 S   S
@@ -1157,27 +205,6 @@ TTTTT
 T   T
 T   T
 ",False
-U,H,"U   U
-U   U
-U   U
-UUUUU
-U   U
-U   U
-",False
-V,H,"V   V
-V   V
-V   V
-VVVVV
-V   V
-V   V
-",False
-W,H,"W   W
-W   W
-W   W
-WWWWW
-W   W
-W   W
-",False
 X,H,"X   X
 X   X
 X   X
@@ -1185,570 +212,11 @@ XXXXX
 X   X
 X   X
 ",False
-Y,H,"Y   Y
-Y   Y
-Y   Y
-YYYYY
-Y   Y
-Y   Y
-",False
 Z,H,"Z   Z
 Z   Z
 Z   Z
 ZZZZZ
 Z   Z
-Z   Z
-",False
-B,I,"BBBBB
-  B  
-  B  
-  B  
-  B  
-BBBBB
-",False
-C,I,"CCCCC
-  C  
-  C  
-  C  
-  C  
-CCCCC
-",False
-D,I,"DDDDD
-  D  
-  D  
-  D  
-  D  
-DDDDD
-",False
-E,I,"EEEEE
-  E  
-  E  
-  E  
-  E  
-EEEEE
-",False
-F,I,"FFFFF
-  F  
-  F  
-  F  
-  F  
-FFFFF
-",False
-G,I,"GGGGG
-  G  
-  G  
-  G  
-  G  
-GGGGG
-",False
-H,I,"HHHHH
-  H  
-  H  
-  H  
-  H  
-HHHHH
-",False
-I,I,"IIIII
-  I  
-  I  
-  I  
-  I  
-IIIII
-",True
-J,I,"JJJJJ
-  J  
-  J  
-  J  
-  J  
-JJJJJ
-",False
-K,I,"KKKKK
-  K  
-  K  
-  K  
-  K  
-KKKKK
-",False
-L,I,"LLLLL
-  L  
-  L  
-  L  
-  L  
-LLLLL
-",False
-N,I,"NNNNN
-  N  
-  N  
-  N  
-  N  
-NNNNN
-",False
-O,I,"OOOOO
-  O  
-  O  
-  O  
-  O  
-OOOOO
-",False
-P,I,"PPPPP
-  P  
-  P  
-  P  
-  P  
-PPPPP
-",False
-Q,I,"QQQQQ
-  Q  
-  Q  
-  Q  
-  Q  
-QQQQQ
-",False
-R,I,"RRRRR
-  R  
-  R  
-  R  
-  R  
-RRRRR
-",False
-S,I,"SSSSS
-  S  
-  S  
-  S  
-  S  
-SSSSS
-",False
-T,I,"TTTTT
-  T  
-  T  
-  T  
-  T  
-TTTTT
-",False
-U,I,"UUUUU
-  U  
-  U  
-  U  
-  U  
-UUUUU
-",False
-V,I,"VVVVV
-  V  
-  V  
-  V  
-  V  
-VVVVV
-",False
-W,I,"WWWWW
-  W  
-  W  
-  W  
-  W  
-WWWWW
-",False
-X,I,"XXXXX
-  X  
-  X  
-  X  
-  X  
-XXXXX
-",False
-Y,I,"YYYYY
-  Y  
-  Y  
-  Y  
-  Y  
-YYYYY
-",False
-Z,I,"ZZZZZ
-  Z  
-  Z  
-  Z  
-  Z  
-ZZZZZ
-",False
-B,J,"  B  
-  B  
-  B  
-  B  
-  B  
-B   
-BB  
-",False
-C,J,"  C  
-  C  
-  C  
-  C  
-  C  
-C   
-CC  
-",False
-D,J,"  D  
-  D  
-  D  
-  D  
-  D  
-D   
-DD  
-",False
-E,J,"  E  
-  E  
-  E  
-  E  
-  E  
-E   
-EE  
-",False
-F,J,"  F  
-  F  
-  F  
-  F  
-  F  
-F   
-FF  
-",False
-G,J,"  G  
-  G  
-  G  
-  G  
-  G  
-G   
-GG  
-",False
-H,J,"  H  
-  H  
-  H  
-  H  
-  H  
-H   
-HH  
-",False
-I,J,"  I  
-  I  
-  I  
-  I  
-  I  
-I   
-II  
-",False
-J,J,"  J  
-  J  
-  J  
-  J  
-  J  
-J   
-JJ  
-",True
-K,J,"  K  
-  K  
-  K  
-  K  
-  K  
-K   
-KK  
-",False
-L,J,"  L  
-  L  
-  L  
-  L  
-  L  
-L   
-LL  
-",False
-N,J,"  N  
-  N  
-  N  
-  N  
-  N  
-N   
-NN  
-",False
-O,J,"  O  
-  O  
-  O  
-  O  
-  O  
-O   
-OO  
-",False
-P,J,"  P  
-  P  
-  P  
-  P  
-  P  
-P   
-PP  
-",False
-Q,J,"  Q  
-  Q  
-  Q  
-  Q  
-  Q  
-Q   
-QQ  
-",False
-R,J,"  R  
-  R  
-  R  
-  R  
-  R  
-R   
-RR  
-",False
-S,J,"  S  
-  S  
-  S  
-  S  
-  S  
-S   
-SS  
-",False
-T,J,"  T  
-  T  
-  T  
-  T  
-  T  
-T   
-TT  
-",False
-U,J,"  U  
-  U  
-  U  
-  U  
-  U  
-U   
-UU  
-",False
-V,J,"  V  
-  V  
-  V  
-  V  
-  V  
-V   
-VV  
-",False
-W,J,"  W  
-  W  
-  W  
-  W  
-  W  
-W   
-WW  
-",False
-X,J,"  X  
-  X  
-  X  
-  X  
-  X  
-X   
-XX  
-",False
-Y,J,"  Y  
-  Y  
-  Y  
-  Y  
-  Y  
-Y   
-YY  
-",False
-Z,J,"  Z  
-  Z  
-  Z  
-  Z  
-  Z  
-Z   
-ZZ  
-",False
-B,K,"B   B
-B  B 
-B B  
-BBBB
-B B  
-B  B 
-B   B
-",False
-C,K,"C   C
-C  C 
-C C  
-CCCC
-C C  
-C  C 
-C   C
-",False
-D,K,"D   D
-D  D 
-D D  
-DDDD
-D D  
-D  D 
-D   D
-",False
-E,K,"E   E
-E  E 
-E E  
-EEEE
-E E  
-E  E 
-E   E
-",False
-F,K,"F   F
-F  F 
-F F  
-FFFF
-F F  
-F  F 
-F   F
-",False
-G,K,"G   G
-G  G 
-G G  
-GGGG
-G G  
-G  G 
-G   G
-",False
-H,K,"H   H
-H  H 
-H H  
-HHHH
-H H  
-H  H 
-H   H
-",False
-I,K,"I   I
-I  I 
-I I  
-IIII
-I I  
-I  I 
-I   I
-",False
-J,K,"J   J
-J  J 
-J J  
-JJJJ
-J J  
-J  J 
-J   J
-",False
-K,K,"K   K
-K  K 
-K K  
-KKKK
-K K  
-K  K 
-K   K
-",True
-L,K,"L   L
-L  L 
-L L  
-LLLL
-L L  
-L  L 
-L   L
-",False
-N,K,"N   N
-N  N 
-N N  
-NNNN
-N N  
-N  N 
-N   N
-",False
-O,K,"O   O
-O  O 
-O O  
-OOOO
-O O  
-O  O 
-O   O
-",False
-P,K,"P   P
-P  P 
-P P  
-PPPP
-P P  
-P  P 
-P   P
-",False
-Q,K,"Q   Q
-Q  Q 
-Q Q  
-QQQQ
-Q Q  
-Q  Q 
-Q   Q
-",False
-R,K,"R   R
-R  R 
-R R  
-RRRR
-R R  
-R  R 
-R   R
-",False
-S,K,"S   S
-S  S 
-S S  
-SSSS
-S S  
-S  S 
-S   S
-",False
-T,K,"T   T
-T  T 
-T T  
-TTTT
-T T  
-T  T 
-T   T
-",False
-U,K,"U   U
-U  U 
-U U  
-UUUU
-U U  
-U  U 
-U   U
-",False
-V,K,"V   V
-V  V 
-V V  
-VVVV
-V V  
-V  V 
-V   V
-",False
-W,K,"W   W
-W  W 
-W W  
-WWWW
-W W  
-W  W 
-W   W
-",False
-X,K,"X   X
-X  X 
-X X  
-XXXX
-X X  
-X  X 
-X   X
-",False
-Y,K,"Y   Y
-Y  Y 
-Y Y  
-YYYY
-Y Y  
-Y  Y 
-Y   Y
-",False
-Z,K,"Z   Z
-Z  Z 
-Z Z  
-ZZZZ
-Z Z  
-Z  Z 
 Z   Z
 ",False
 B,L,"B    
@@ -1758,40 +226,12 @@ B
 B    
 BBBBB
 ",False
-C,L,"C    
-C    
-C    
-C    
-C    
-CCCCC
-",False
 D,L,"D    
 D    
 D    
 D    
 D    
 DDDDD
-",False
-E,L,"E    
-E    
-E    
-E    
-E    
-EEEEE
-",False
-F,L,"F    
-F    
-F    
-F    
-F    
-FFFFF
-",False
-G,L,"G    
-G    
-G    
-G    
-G    
-GGGGG
 ",False
 H,L,"H    
 H    
@@ -1800,27 +240,6 @@ H
 H    
 HHHHH
 ",False
-I,L,"I    
-I    
-I    
-I    
-I    
-IIIII
-",False
-J,L,"J    
-J    
-J    
-J    
-J    
-JJJJJ
-",False
-K,L,"K    
-K    
-K    
-K    
-K    
-KKKKK
-",False
 L,L,"L    
 L    
 L    
@@ -1828,13 +247,6 @@ L
 L    
 LLLLL
 ",True
-N,L,"N    
-N    
-N    
-N    
-N    
-NNNNN
-",False
 O,L,"O    
 O    
 O    
@@ -1848,20 +260,6 @@ P
 P    
 P    
 PPPPP
-",False
-Q,L,"Q    
-Q    
-Q    
-Q    
-Q    
-QQQQQ
-",False
-R,L,"R    
-R    
-R    
-R    
-R    
-RRRRR
 ",False
 S,L,"S    
 S    
@@ -1877,40 +275,12 @@ T
 T    
 TTTTT
 ",False
-U,L,"U    
-U    
-U    
-U    
-U    
-UUUUU
-",False
-V,L,"V    
-V    
-V    
-V    
-V    
-VVVVV
-",False
-W,L,"W    
-W    
-W    
-W    
-W    
-WWWWW
-",False
 X,L,"X    
 X    
 X    
 X    
 X    
 XXXXX
-",False
-Y,L,"Y    
-Y    
-Y    
-Y    
-Y    
-YYYYY
 ",False
 Z,L,"Z    
 Z    
@@ -1919,163 +289,12 @@ Z
 Z    
 ZZZZZ
 ",False
-B,N,"B   B
-BB  B
-B B B
-B  BB
-B   B
-",False
-C,N,"C   C
-CC  C
-C C C
-C  CC
-C   C
-",False
-D,N,"D   D
-DD  D
-D D D
-D  DD
-D   D
-",False
-E,N,"E   E
-EE  E
-E E E
-E  EE
-E   E
-",False
-F,N,"F   F
-FF  F
-F F F
-F  FF
-F   F
-",False
-G,N,"G   G
-GG  G
-G G G
-G  GG
-G   G
-",False
-H,N,"H   H
-HH  H
-H H H
-H  HH
-H   H
-",False
-I,N,"I   I
-II  I
-I I I
-I  II
-I   I
-",False
-J,N,"J   J
-JJ  J
-J J J
-J  JJ
-J   J
-",False
-K,N,"K   K
-KK  K
-K K K
-K  KK
-K   K
-",False
-L,N,"L   L
-LL  L
-L L L
-L  LL
-L   L
-",False
-N,N,"N   N
-NN  N
-N N N
-N  NN
-N   N
-",True
-O,N,"O   O
-OO  O
-O O O
-O  OO
-O   O
-",False
-P,N,"P   P
-PP  P
-P P P
-P  PP
-P   P
-",False
-Q,N,"Q   Q
-QQ  Q
-Q Q Q
-Q  QQ
-Q   Q
-",False
-R,N,"R   R
-RR  R
-R R R
-R  RR
-R   R
-",False
-S,N,"S   S
-SS  S
-S S S
-S  SS
-S   S
-",False
-T,N,"T   T
-TT  T
-T T T
-T  TT
-T   T
-",False
-U,N,"U   U
-UU  U
-U U U
-U  UU
-U   U
-",False
-V,N,"V   V
-VV  V
-V V V
-V  VV
-V   V
-",False
-W,N,"W   W
-WW  W
-W W W
-W  WW
-W   W
-",False
-X,N,"X   X
-XX  X
-X X X
-X  XX
-X   X
-",False
-Y,N,"Y   Y
-YY  Y
-Y Y Y
-Y  YY
-Y   Y
-",False
-Z,N,"Z   Z
-ZZ  Z
-Z Z Z
-Z  ZZ
-Z   Z
-",False
 B,O," BBB 
 B   B
 B   B
 B   B
 B   B
  BBB 
-",False
-C,O," CCC 
-C   C
-C   C
-C   C
-C   C
- CCC 
 ",False
 D,O," DDD 
 D   D
@@ -2084,27 +303,6 @@ D   D
 D   D
  DDD 
 ",False
-E,O," EEE 
-E   E
-E   E
-E   E
-E   E
- EEE 
-",False
-F,O," FFF 
-F   F
-F   F
-F   F
-F   F
- FFF 
-",False
-G,O," GGG 
-G   G
-G   G
-G   G
-G   G
- GGG 
-",False
 H,O," HHH 
 H   H
 H   H
@@ -2112,40 +310,12 @@ H   H
 H   H
  HHH 
 ",False
-I,O," III 
-I   I
-I   I
-I   I
-I   I
- III 
-",False
-J,O," JJJ 
-J   J
-J   J
-J   J
-J   J
- JJJ 
-",False
-K,O," KKK 
-K   K
-K   K
-K   K
-K   K
- KKK 
-",False
 L,O," LLL 
 L   L
 L   L
 L   L
 L   L
  LLL 
-",False
-N,O," NNN 
-N   N
-N   N
-N   N
-N   N
- NNN 
 ",False
 O,O," OOO 
 O   O
@@ -2161,20 +331,6 @@ P   P
 P   P
  PPP 
 ",False
-Q,O," QQQ 
-Q   Q
-Q   Q
-Q   Q
-Q   Q
- QQQ 
-",False
-R,O," RRR 
-R   R
-R   R
-R   R
-R   R
- RRR 
-",False
 S,O," SSS 
 S   S
 S   S
@@ -2189,40 +345,12 @@ T   T
 T   T
  TTT 
 ",False
-U,O," UUU 
-U   U
-U   U
-U   U
-U   U
- UUU 
-",False
-V,O," VVV 
-V   V
-V   V
-V   V
-V   V
- VVV 
-",False
-W,O," WWW 
-W   W
-W   W
-W   W
-W   W
- WWW 
-",False
 X,O," XXX 
 X   X
 X   X
 X   X
 X   X
  XXX 
-",False
-Y,O," YYY 
-Y   Y
-Y   Y
-Y   Y
-Y   Y
- YYY 
 ",False
 Z,O," ZZZ 
 Z   Z
@@ -2239,14 +367,6 @@ B
 B    
 B    
 ",False
-C,P,"CCCC 
-C   C
-C   C
-CCCC 
-C    
-C    
-C    
-",False
 D,P,"DDDD 
 D   D
 D   D
@@ -2254,30 +374,6 @@ DDDD
 D    
 D    
 D    
-",False
-E,P,"EEEE 
-E   E
-E   E
-EEEE 
-E    
-E    
-E    
-",False
-F,P,"FFFF 
-F   F
-F   F
-FFFF 
-F    
-F    
-F    
-",False
-G,P,"GGGG 
-G   G
-G   G
-GGGG 
-G    
-G    
-G    
 ",False
 H,P,"HHHH 
 H   H
@@ -2287,30 +383,6 @@ H
 H    
 H    
 ",False
-I,P,"IIII 
-I   I
-I   I
-IIII 
-I    
-I    
-I    
-",False
-J,P,"JJJJ 
-J   J
-J   J
-JJJJ 
-J    
-J    
-J    
-",False
-K,P,"KKKK 
-K   K
-K   K
-KKKK 
-K    
-K    
-K    
-",False
 L,P,"LLLL 
 L   L
 L   L
@@ -2318,14 +390,6 @@ LLLL
 L    
 L    
 L    
-",False
-N,P,"NNNN 
-N   N
-N   N
-NNNN 
-N    
-N    
-N    
 ",False
 O,P,"OOOO 
 O   O
@@ -2343,22 +407,6 @@ P
 P    
 P    
 ",True
-Q,P,"QQQQ 
-Q   Q
-Q   Q
-QQQQ 
-Q    
-Q    
-Q    
-",False
-R,P,"RRRR 
-R   R
-R   R
-RRRR 
-R    
-R    
-R    
-",False
 S,P,"SSSS 
 S   S
 S   S
@@ -2375,30 +423,6 @@ T
 T    
 T    
 ",False
-U,P,"UUUU 
-U   U
-U   U
-UUUU 
-U    
-U    
-U    
-",False
-V,P,"VVVV 
-V   V
-V   V
-VVVV 
-V    
-V    
-V    
-",False
-W,P,"WWWW 
-W   W
-W   W
-WWWW 
-W    
-W    
-W    
-",False
 X,P,"XXXX 
 X   X
 X   X
@@ -2406,14 +430,6 @@ XXXX
 X    
 X    
 X    
-",False
-Y,P,"YYYY 
-Y   Y
-Y   Y
-YYYY 
-Y    
-Y    
-Y    
 ",False
 Z,P,"ZZZZ 
 Z   Z
@@ -2423,366 +439,6 @@ Z
 Z    
 Z    
 ",False
-B,Q," BBB 
-B   B
-B   B
-B   B
-B  B 
- BBBB
-",False
-C,Q," CCC 
-C   C
-C   C
-C   C
-C  C 
- CCCC
-",False
-D,Q," DDD 
-D   D
-D   D
-D   D
-D  D 
- DDDD
-",False
-E,Q," EEE 
-E   E
-E   E
-E   E
-E  E 
- EEEE
-",False
-F,Q," FFF 
-F   F
-F   F
-F   F
-F  F 
- FFFF
-",False
-G,Q," GGG 
-G   G
-G   G
-G   G
-G  G 
- GGGG
-",False
-H,Q," HHH 
-H   H
-H   H
-H   H
-H  H 
- HHHH
-",False
-I,Q," III 
-I   I
-I   I
-I   I
-I  I 
- IIII
-",False
-J,Q," JJJ 
-J   J
-J   J
-J   J
-J  J 
- JJJJ
-",False
-K,Q," KKK 
-K   K
-K   K
-K   K
-K  K 
- KKKK
-",False
-L,Q," LLL 
-L   L
-L   L
-L   L
-L  L 
- LLLL
-",False
-N,Q," NNN 
-N   N
-N   N
-N   N
-N  N 
- NNNN
-",False
-O,Q," OOO 
-O   O
-O   O
-O   O
-O  O 
- OOOO
-",False
-P,Q," PPP 
-P   P
-P   P
-P   P
-P  P 
- PPPP
-",False
-Q,Q," QQQ 
-Q   Q
-Q   Q
-Q   Q
-Q  Q 
- QQQQ
-",True
-R,Q," RRR 
-R   R
-R   R
-R   R
-R  R 
- RRRR
-",False
-S,Q," SSS 
-S   S
-S   S
-S   S
-S  S 
- SSSS
-",False
-T,Q," TTT 
-T   T
-T   T
-T   T
-T  T 
- TTTT
-",False
-U,Q," UUU 
-U   U
-U   U
-U   U
-U  U 
- UUUU
-",False
-V,Q," VVV 
-V   V
-V   V
-V   V
-V  V 
- VVVV
-",False
-W,Q," WWW 
-W   W
-W   W
-W   W
-W  W 
- WWWW
-",False
-X,Q," XXX 
-X   X
-X   X
-X   X
-X  X 
- XXXX
-",False
-Y,Q," YYY 
-Y   Y
-Y   Y
-Y   Y
-Y  Y 
- YYYY
-",False
-Z,Q," ZZZ 
-Z   Z
-Z   Z
-Z   Z
-Z  Z 
- ZZZZ
-",False
-B,R,"BBBB 
-B   B
-B   B
-BBBB 
-B B  
-B  B 
-B   B
-",False
-C,R,"CCCC 
-C   C
-C   C
-CCCC 
-C C  
-C  C 
-C   C
-",False
-D,R,"DDDD 
-D   D
-D   D
-DDDD 
-D D  
-D  D 
-D   D
-",False
-E,R,"EEEE 
-E   E
-E   E
-EEEE 
-E E  
-E  E 
-E   E
-",False
-F,R,"FFFF 
-F   F
-F   F
-FFFF 
-F F  
-F  F 
-F   F
-",False
-G,R,"GGGG 
-G   G
-G   G
-GGGG 
-G G  
-G  G 
-G   G
-",False
-H,R,"HHHH 
-H   H
-H   H
-HHHH 
-H H  
-H  H 
-H   H
-",False
-I,R,"IIII 
-I   I
-I   I
-IIII 
-I I  
-I  I 
-I   I
-",False
-J,R,"JJJJ 
-J   J
-J   J
-JJJJ 
-J J  
-J  J 
-J   J
-",False
-K,R,"KKKK 
-K   K
-K   K
-KKKK 
-K K  
-K  K 
-K   K
-",False
-L,R,"LLLL 
-L   L
-L   L
-LLLL 
-L L  
-L  L 
-L   L
-",False
-N,R,"NNNN 
-N   N
-N   N
-NNNN 
-N N  
-N  N 
-N   N
-",False
-O,R,"OOOO 
-O   O
-O   O
-OOOO 
-O O  
-O  O 
-O   O
-",False
-P,R,"PPPP 
-P   P
-P   P
-PPPP 
-P P  
-P  P 
-P   P
-",False
-Q,R,"QQQQ 
-Q   Q
-Q   Q
-QQQQ 
-Q Q  
-Q  Q 
-Q   Q
-",False
-R,R,"RRRR 
-R   R
-R   R
-RRRR 
-R R  
-R  R 
-R   R
-",True
-S,R,"SSSS 
-S   S
-S   S
-SSSS 
-S S  
-S  S 
-S   S
-",False
-T,R,"TTTT 
-T   T
-T   T
-TTTT 
-T T  
-T  T 
-T   T
-",False
-U,R,"UUUU 
-U   U
-U   U
-UUUU 
-U U  
-U  U 
-U   U
-",False
-V,R,"VVVV 
-V   V
-V   V
-VVVV 
-V V  
-V  V 
-V   V
-",False
-W,R,"WWWW 
-W   W
-W   W
-WWWW 
-W W  
-W  W 
-W   W
-",False
-X,R,"XXXX 
-X   X
-X   X
-XXXX 
-X X  
-X  X 
-X   X
-",False
-Y,R,"YYYY 
-Y   Y
-Y   Y
-YYYY 
-Y Y  
-Y  Y 
-Y   Y
-",False
-Z,R,"ZZZZ 
-Z   Z
-Z   Z
-ZZZZ 
-Z Z  
-Z  Z 
-Z   Z
-",False
 B,S,"BBB
 B  
 B  
@@ -2790,14 +446,6 @@ BBB
   B  
   B  
 BBB
-",False
-C,S,"CCC
-C  
-C  
-CCC
-  C  
-  C  
-CCC
 ",False
 D,S,"DDD
 D  
@@ -2807,30 +455,6 @@ DDD
   D  
 DDD
 ",False
-E,S,"EEE
-E  
-E  
-EEE
-  E  
-  E  
-EEE
-",False
-F,S,"FFF
-F  
-F  
-FFF
-  F  
-  F  
-FFF
-",False
-G,S,"GGG
-G  
-G  
-GGG
-  G  
-  G  
-GGG
-",False
 H,S,"HHH
 H  
 H  
@@ -2839,30 +463,6 @@ HHH
   H  
 HHH
 ",False
-I,S,"III
-I  
-I  
-III
-  I  
-  I  
-III
-",False
-J,S,"JJJ
-J  
-J  
-JJJ
-  J  
-  J  
-JJJ
-",False
-K,S,"KKK
-K  
-K  
-KKK
-  K  
-  K  
-KKK
-",False
 L,S,"LLL
 L  
 L  
@@ -2870,14 +470,6 @@ LLL
   L  
   L  
 LLL
-",False
-N,S,"NNN
-N  
-N  
-NNN
-  N  
-  N  
-NNN
 ",False
 O,S,"OOO
 O  
@@ -2895,22 +487,6 @@ PPP
   P  
 PPP
 ",False
-Q,S,"QQQ
-Q  
-Q  
-QQQ
-  Q  
-  Q  
-QQQ
-",False
-R,S,"RRR
-R  
-R  
-RRR
-  R  
-  R  
-RRR
-",False
 S,S,"SSS
 S  
 S  
@@ -2927,30 +503,6 @@ TTT
   T  
 TTT
 ",False
-U,S,"UUU
-U  
-U  
-UUU
-  U  
-  U  
-UUU
-",False
-V,S,"VVV
-V  
-V  
-VVV
-  V  
-  V  
-VVV
-",False
-W,S,"WWW
-W  
-W  
-WWW
-  W  
-  W  
-WWW
-",False
 X,S,"XXX
 X  
 X  
@@ -2958,14 +510,6 @@ XXX
   X  
   X  
 XXX
-",False
-Y,S,"YYY
-Y  
-Y  
-YYY
-  Y  
-  Y  
-YYY
 ",False
 Z,S,"ZZZ
 Z  
@@ -2982,40 +526,12 @@ B,T,"BBBBBBB
   B  
   B  
 ",False
-C,T,"CCCCCCC
-  C  
-  C  
-  C  
-  C  
-  C  
-",False
 D,T,"DDDDDDD
   D  
   D  
   D  
   D  
   D  
-",False
-E,T,"EEEEEEE
-  E  
-  E  
-  E  
-  E  
-  E  
-",False
-F,T,"FFFFFFF
-  F  
-  F  
-  F  
-  F  
-  F  
-",False
-G,T,"GGGGGGG
-  G  
-  G  
-  G  
-  G  
-  G  
 ",False
 H,T,"HHHHHHH
   H  
@@ -3024,40 +540,12 @@ H,T,"HHHHHHH
   H  
   H  
 ",False
-I,T,"IIIIIII
-  I  
-  I  
-  I  
-  I  
-  I  
-",False
-J,T,"JJJJJJJ
-  J  
-  J  
-  J  
-  J  
-  J  
-",False
-K,T,"KKKKKKK
-  K  
-  K  
-  K  
-  K  
-  K  
-",False
 L,T,"LLLLLLL
   L  
   L  
   L  
   L  
   L  
-",False
-N,T,"NNNNNNN
-  N  
-  N  
-  N  
-  N  
-  N  
 ",False
 O,T,"OOOOOOO
   O  
@@ -3073,20 +561,6 @@ P,T,"PPPPPPP
   P  
   P  
 ",False
-Q,T,"QQQQQQQ
-  Q  
-  Q  
-  Q  
-  Q  
-  Q  
-",False
-R,T,"RRRRRRR
-  R  
-  R  
-  R  
-  R  
-  R  
-",False
 S,T,"SSSSSSS
   S  
   S  
@@ -3101,40 +575,12 @@ T,T,"TTTTTTT
   T  
   T  
 ",True
-U,T,"UUUUUUU
-  U  
-  U  
-  U  
-  U  
-  U  
-",False
-V,T,"VVVVVVV
-  V  
-  V  
-  V  
-  V  
-  V  
-",False
-W,T,"WWWWWWW
-  W  
-  W  
-  W  
-  W  
-  W  
-",False
 X,T,"XXXXXXX
   X  
   X  
   X  
   X  
   X  
-",False
-Y,T,"YYYYYYY
-  Y  
-  Y  
-  Y  
-  Y  
-  Y  
 ",False
 Z,T,"ZZZZZZZ
   Z  
@@ -3143,497 +589,11 @@ Z,T,"ZZZZZZZ
   Z  
   Z  
 ",False
-B,U,"B   B
-B   B
-B   B
-B   B
-B   B
- BBB 
-",False
-C,U,"C   C
-C   C
-C   C
-C   C
-C   C
- CCC 
-",False
-D,U,"D   D
-D   D
-D   D
-D   D
-D   D
- DDD 
-",False
-E,U,"E   E
-E   E
-E   E
-E   E
-E   E
- EEE 
-",False
-F,U,"F   F
-F   F
-F   F
-F   F
-F   F
- FFF 
-",False
-G,U,"G   G
-G   G
-G   G
-G   G
-G   G
- GGG 
-",False
-H,U,"H   H
-H   H
-H   H
-H   H
-H   H
- HHH 
-",False
-I,U,"I   I
-I   I
-I   I
-I   I
-I   I
- III 
-",False
-J,U,"J   J
-J   J
-J   J
-J   J
-J   J
- JJJ 
-",False
-K,U,"K   K
-K   K
-K   K
-K   K
-K   K
- KKK 
-",False
-L,U,"L   L
-L   L
-L   L
-L   L
-L   L
- LLL 
-",False
-N,U,"N   N
-N   N
-N   N
-N   N
-N   N
- NNN 
-",False
-O,U,"O   O
-O   O
-O   O
-O   O
-O   O
- OOO 
-",False
-P,U,"P   P
-P   P
-P   P
-P   P
-P   P
- PPP 
-",False
-Q,U,"Q   Q
-Q   Q
-Q   Q
-Q   Q
-Q   Q
- QQQ 
-",False
-R,U,"R   R
-R   R
-R   R
-R   R
-R   R
- RRR 
-",False
-S,U,"S   S
-S   S
-S   S
-S   S
-S   S
- SSS 
-",False
-T,U,"T   T
-T   T
-T   T
-T   T
-T   T
- TTT 
-",False
-U,U,"U   U
-U   U
-U   U
-U   U
-U   U
- UUU 
-",True
-V,U,"V   V
-V   V
-V   V
-V   V
-V   V
- VVV 
-",False
-W,U,"W   W
-W   W
-W   W
-W   W
-W   W
- WWW 
-",False
-X,U,"X   X
-X   X
-X   X
-X   X
-X   X
- XXX 
-",False
-Y,U,"Y   Y
-Y   Y
-Y   Y
-Y   Y
-Y   Y
- YYY 
-",False
-Z,U,"Z   Z
-Z   Z
-Z   Z
-Z   Z
-Z   Z
- ZZZ 
-",False
-B,V,"B   B
-B   B
-B   B
-B   B
- B B
-  B  
-",False
-C,V,"C   C
-C   C
-C   C
-C   C
- C C
-  C  
-",False
-D,V,"D   D
-D   D
-D   D
-D   D
- D D
-  D  
-",False
-E,V,"E   E
-E   E
-E   E
-E   E
- E E
-  E  
-",False
-F,V,"F   F
-F   F
-F   F
-F   F
- F F
-  F  
-",False
-G,V,"G   G
-G   G
-G   G
-G   G
- G G
-  G  
-",False
-H,V,"H   H
-H   H
-H   H
-H   H
- H H
-  H  
-",False
-I,V,"I   I
-I   I
-I   I
-I   I
- I I
-  I  
-",False
-J,V,"J   J
-J   J
-J   J
-J   J
- J J
-  J  
-",False
-K,V,"K   K
-K   K
-K   K
-K   K
- K K
-  K  
-",False
-L,V,"L   L
-L   L
-L   L
-L   L
- L L
-  L  
-",False
-N,V,"N   N
-N   N
-N   N
-N   N
- N N
-  N  
-",False
-O,V,"O   O
-O   O
-O   O
-O   O
- O O
-  O  
-",False
-P,V,"P   P
-P   P
-P   P
-P   P
- P P
-  P  
-",False
-Q,V,"Q   Q
-Q   Q
-Q   Q
-Q   Q
- Q Q
-  Q  
-",False
-R,V,"R   R
-R   R
-R   R
-R   R
- R R
-  R  
-",False
-S,V,"S   S
-S   S
-S   S
-S   S
- S S
-  S  
-",False
-T,V,"T   T
-T   T
-T   T
-T   T
- T T
-  T  
-",False
-U,V,"U   U
-U   U
-U   U
-U   U
- U U
-  U  
-",False
-V,V,"V   V
-V   V
-V   V
-V   V
- V V
-  V  
-",True
-W,V,"W   W
-W   W
-W   W
-W   W
- W W
-  W  
-",False
-X,V,"X   X
-X   X
-X   X
-X   X
- X X
-  X  
-",False
-Y,V,"Y   Y
-Y   Y
-Y   Y
-Y   Y
- Y Y
-  Y  
-",False
-Z,V,"Z   Z
-Z   Z
-Z   Z
-Z   Z
- Z Z
-  Z  
-",False
-B,W,"B   B
-B   B
-B   B
-B B B
-BBBBB
-",False
-C,W,"C   C
-C   C
-C   C
-C C C
-CCCCC
-",False
-D,W,"D   D
-D   D
-D   D
-D D D
-DDDDD
-",False
-E,W,"E   E
-E   E
-E   E
-E E E
-EEEEE
-",False
-F,W,"F   F
-F   F
-F   F
-F F F
-FFFFF
-",False
-G,W,"G   G
-G   G
-G   G
-G G G
-GGGGG
-",False
-H,W,"H   H
-H   H
-H   H
-H H H
-HHHHH
-",False
-I,W,"I   I
-I   I
-I   I
-I I I
-IIIII
-",False
-J,W,"J   J
-J   J
-J   J
-J J J
-JJJJJ
-",False
-K,W,"K   K
-K   K
-K   K
-K K K
-KKKKK
-",False
-L,W,"L   L
-L   L
-L   L
-L L L
-LLLLL
-",False
-N,W,"N   N
-N   N
-N   N
-N N N
-NNNNN
-",False
-O,W,"O   O
-O   O
-O   O
-O O O
-OOOOO
-",False
-P,W,"P   P
-P   P
-P   P
-P P P
-PPPPP
-",False
-Q,W,"Q   Q
-Q   Q
-Q   Q
-Q Q Q
-QQQQQ
-",False
-R,W,"R   R
-R   R
-R   R
-R R R
-RRRRR
-",False
-S,W,"S   S
-S   S
-S   S
-S S S
-SSSSS
-",False
-T,W,"T   T
-T   T
-T   T
-T T T
-TTTTT
-",False
-U,W,"U   U
-U   U
-U   U
-U U U
-UUUUU
-",False
-V,W,"V   V
-V   V
-V   V
-V V V
-VVVVV
-",False
-W,W,"W   W
-W   W
-W   W
-W W W
-WWWWW
-",True
-X,W,"X   X
-X   X
-X   X
-X X X
-XXXXX
-",False
-Y,W,"Y   Y
-Y   Y
-Y   Y
-Y Y Y
-YYYYY
-",False
-Z,W,"Z   Z
-Z   Z
-Z   Z
-Z Z Z
-ZZZZZ
-",False
 B,X,"B   B
  B B
   B  
  B B
 B   B
-",False
-C,X,"C   C
- C C
-  C  
- C C
-C   C
 ",False
 D,X,"D   D
  D D
@@ -3641,59 +601,17 @@ D,X,"D   D
  D D
 D   D
 ",False
-E,X,"E   E
- E E
-  E  
- E E
-E   E
-",False
-F,X,"F   F
- F F
-  F  
- F F
-F   F
-",False
-G,X,"G   G
- G G
-  G  
- G G
-G   G
-",False
 H,X,"H   H
  H H
   H  
  H H
 H   H
 ",False
-I,X,"I   I
- I I
-  I  
- I I
-I   I
-",False
-J,X,"J   J
- J J
-  J  
- J J
-J   J
-",False
-K,X,"K   K
- K K
-  K  
- K K
-K   K
-",False
 L,X,"L   L
  L L
   L  
  L L
 L   L
-",False
-N,X,"N   N
- N N
-  N  
- N N
-N   N
 ",False
 O,X,"O   O
  O O
@@ -3707,18 +625,6 @@ P,X,"P   P
  P P
 P   P
 ",False
-Q,X,"Q   Q
- Q Q
-  Q  
- Q Q
-Q   Q
-",False
-R,X,"R   R
- R R
-  R  
- R R
-R   R
-",False
 S,X,"S   S
  S S
   S  
@@ -3731,209 +637,17 @@ T,X,"T   T
  T T
 T   T
 ",False
-U,X,"U   U
- U U
-  U  
- U U
-U   U
-",False
-V,X,"V   V
- V V
-  V  
- V V
-V   V
-",False
-W,X,"W   W
- W W
-  W  
- W W
-W   W
-",False
 X,X,"X   X
  X X
   X  
  X X
 X   X
 ",True
-Y,X,"Y   Y
- Y Y
-  Y  
- Y Y
-Y   Y
-",False
 Z,X,"Z   Z
  Z Z
   Z  
  Z Z
 Z   Z
-",False
-B,Y,"B   B
- B B
-  B  
-  B  
-  B  
-  B  
-",False
-C,Y,"C   C
- C C
-  C  
-  C  
-  C  
-  C  
-",False
-D,Y,"D   D
- D D
-  D  
-  D  
-  D  
-  D  
-",False
-E,Y,"E   E
- E E
-  E  
-  E  
-  E  
-  E  
-",False
-F,Y,"F   F
- F F
-  F  
-  F  
-  F  
-  F  
-",False
-G,Y,"G   G
- G G
-  G  
-  G  
-  G  
-  G  
-",False
-H,Y,"H   H
- H H
-  H  
-  H  
-  H  
-  H  
-",False
-I,Y,"I   I
- I I
-  I  
-  I  
-  I  
-  I  
-",False
-J,Y,"J   J
- J J
-  J  
-  J  
-  J  
-  J  
-",False
-K,Y,"K   K
- K K
-  K  
-  K  
-  K  
-  K  
-",False
-L,Y,"L   L
- L L
-  L  
-  L  
-  L  
-  L  
-",False
-N,Y,"N   N
- N N
-  N  
-  N  
-  N  
-  N  
-",False
-O,Y,"O   O
- O O
-  O  
-  O  
-  O  
-  O  
-",False
-P,Y,"P   P
- P P
-  P  
-  P  
-  P  
-  P  
-",False
-Q,Y,"Q   Q
- Q Q
-  Q  
-  Q  
-  Q  
-  Q  
-",False
-R,Y,"R   R
- R R
-  R  
-  R  
-  R  
-  R  
-",False
-S,Y,"S   S
- S S
-  S  
-  S  
-  S  
-  S  
-",False
-T,Y,"T   T
- T T
-  T  
-  T  
-  T  
-  T  
-",False
-U,Y,"U   U
- U U
-  U  
-  U  
-  U  
-  U  
-",False
-V,Y,"V   V
- V V
-  V  
-  V  
-  V  
-  V  
-",False
-W,Y,"W   W
- W W
-  W  
-  W  
-  W  
-  W  
-",False
-X,Y,"X   X
- X X
-  X  
-  X  
-  X  
-  X  
-",False
-Y,Y,"Y   Y
- Y Y
-  Y  
-  Y  
-  Y  
-  Y  
-",True
-Z,Y,"Z   Z
- Z Z
-  Z  
-  Z  
-  Z  
-  Z  
 ",False
 B,Z,"BBBBBBB
      B
@@ -3943,14 +657,6 @@ B,Z,"BBBBBBB
  B
 BBBBBBB
 ",False
-C,Z,"CCCCCCC
-     C
-    C
-   C
-  C
- C
-CCCCCCC
-",False
 D,Z,"DDDDDDD
      D
     D
@@ -3958,30 +664,6 @@ D,Z,"DDDDDDD
   D
  D
 DDDDDDD
-",False
-E,Z,"EEEEEEE
-     E
-    E
-   E
-  E
- E
-EEEEEEE
-",False
-F,Z,"FFFFFFF
-     F
-    F
-   F
-  F
- F
-FFFFFFF
-",False
-G,Z,"GGGGGGG
-     G
-    G
-   G
-  G
- G
-GGGGGGG
 ",False
 H,Z,"HHHHHHH
      H
@@ -3991,30 +673,6 @@ H,Z,"HHHHHHH
  H
 HHHHHHH
 ",False
-I,Z,"IIIIIII
-     I
-    I
-   I
-  I
- I
-IIIIIII
-",False
-J,Z,"JJJJJJJ
-     J
-    J
-   J
-  J
- J
-JJJJJJJ
-",False
-K,Z,"KKKKKKK
-     K
-    K
-   K
-  K
- K
-KKKKKKK
-",False
 L,Z,"LLLLLLL
      L
     L
@@ -4022,14 +680,6 @@ L,Z,"LLLLLLL
   L
  L
 LLLLLLL
-",False
-N,Z,"NNNNNNN
-     N
-    N
-   N
-  N
- N
-NNNNNNN
 ",False
 O,Z,"OOOOOOO
      O
@@ -4047,22 +697,6 @@ P,Z,"PPPPPPP
  P
 PPPPPPP
 ",False
-Q,Z,"QQQQQQQ
-     Q
-    Q
-   Q
-  Q
- Q
-QQQQQQQ
-",False
-R,Z,"RRRRRRR
-     R
-    R
-   R
-  R
- R
-RRRRRRR
-",False
 S,Z,"SSSSSSS
      S
     S
@@ -4079,30 +713,6 @@ T,Z,"TTTTTTT
  T
 TTTTTTT
 ",False
-U,Z,"UUUUUUU
-     U
-    U
-   U
-  U
- U
-UUUUUUU
-",False
-V,Z,"VVVVVVV
-     V
-    V
-   V
-  V
- V
-VVVVVVV
-",False
-W,Z,"WWWWWWW
-     W
-    W
-   W
-  W
- W
-WWWWWWW
-",False
 X,Z,"XXXXXXX
      X
     X
@@ -4110,14 +720,6 @@ X,Z,"XXXXXXX
   X
  X
 XXXXXXX
-",False
-Y,Z,"YYYYYYY
-     Y
-    Y
-   Y
-  Y
- Y
-YYYYYYY
 ",False
 Z,Z,"ZZZZZZZ
      Z

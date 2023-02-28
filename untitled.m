@@ -4,7 +4,7 @@ clear;
 sca
 
 % Create a Psychtoolbox dialog box
-prompt = {'Enter your name:', 'Enter your age:'};
+prompt = {'Enter PID:', 'Enter age:'};
 dlgtitle = 'Personal Information';
 dims = [1 50];
 definput = {'', ''};
@@ -14,7 +14,7 @@ options = struct('Resize','on');
 answer = inputdlg(prompt, dlgtitle, dims, definput, options);
 
 % Save the input to variables   
-name = answer{1};
+pid = answer{1};
 age = str2double(answer{2});
 
 % Check that age is a valid number
@@ -23,7 +23,7 @@ if isnan(age)
 end
 
 % Display the input to the user
-disp(['Name: ' name]);
+disp(['PID: ' pid]);
 disp(['Age: ' num2str(age)]);
 
 % Here we call some default settings for setting up Psychtoolbox
@@ -90,10 +90,12 @@ response_time = [];
 correct_time = [];
 local_incorrect_time = [];
 other_incorrect_time = [];
+file_name = [];
+
 % Draw text in the middle of the screen in Courier in white
 Screen('TextSize', window, 20);
 Screen('TextFont', window, 'Courier');
-formatted_text = ['Hello ' name ' You will be shown an image of an (global) english alphabet \n\n made up of another english alphabet. \n\nClick key corresponding to \n\n the global letter. \n\nPress any key to start'];
+formatted_text = ['Hello ' pid ' You will be shown an image of an (global) english alphabet \n\n made up of another english alphabet. \n\nClick key corresponding to \n\n the global letter. \n\nPress any key to start'];
 
 DrawFormattedText(window, formatted_text, 'center', 'center', black);
 Screen('Flip', window);  
@@ -114,10 +116,17 @@ for block = 1:3
     for trial = 1+(block-1)*10:10*(block)
         local_letter = [local_letter local_ans(trial)]
         global_letter = [global_letter global_ans(trial)]
+        file_name = [file_name pid]
+
+        Screen('TextSize', window, 20);
+        Screen('TextFont', window, 'Courier');
+        DrawFormattedText(window, 'x', 'center', 'center', black);
+        Screen('Flip', window);
+        WaitSecs(0.3)
 
         Screen('TextSize', window, 80);
         Screen('TextFont', window, 'Courier');
-        disp(trial);
+        %disp(trial);
         num_total = num_total + 1;
         DrawFormattedText(window, char(textColumn(trial)), 'center', 'center', black);
         Screen('Flip', window);
@@ -183,8 +192,28 @@ WaitSecs(0.5);
 % Flip to the screen
     %duration = 2
 
- headers = {'local_letter','global_letter'}
- csvwrite('matlabdandata2.csv',[global_letter;local_letter], headers)
+local_letter_table = array2table(local_letter.');
+local_letter_table.Properties.VariableNames = {'local_letter'};
+
+
+global_letter_table = array2table(global_letter.');
+global_letter_table.Properties.VariableNames = {'global_letter'};
+
+
+response_code_table = array2table(response_code.');
+response_code_table.Properties.VariableNames = {'response_code'};
+
+
+response_time_table = array2table(response_time.');
+response_time_table.Properties.VariableNames = {'response_time'};
+
+file_name = char(file_name)'
+pid_table = array2table(file_name);
+pid_table.Properties.VariableNames = {'file_name'};
+
+final_table = horzcat(pid_table, local_letter_table, global_letter_table, response_code_table, response_time_table);
+save(['matlab_exp_data\', pid, '.mat'], 'final_table');
+    
 
     %disp(keyCode)
 % Draw text in the bottom of the screen in Times in blue
